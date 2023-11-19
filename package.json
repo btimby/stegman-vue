@@ -3,6 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/stegman-vue.umd.cjs",
+  "module": "./dist/stegman-vue.js",
+  "exports": {
+    ".": {
+      "import": "./dist/stegman-vue.js",
+      "require": "./dist/stegman-vue.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
