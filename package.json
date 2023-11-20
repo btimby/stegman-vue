@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/stegman-vue.umd.cjs",
   "module": "./dist/stegman-vue.js",
   "exports": {
@@ -19,6 +21,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "stegtext": "^1.0.2",
     "vue": "^3.3.8"
   },
   "devDependencies": {

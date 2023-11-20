@@ -1,5 +1,12 @@
 <template>
-  <Compose/>
+  <div>
+    <textarea
+      ref="text"
+    ></textarea>
+    <Compose
+      :el="$refs.text"
+    />
+  </div>
 </template>
 
 <script>
