@@ -9,6 +9,7 @@
 
 <script>
 import { Write } from 'stegman-vue';
+import 'stegman-vue/index.css';
 
 export default {
   name: 'Demo',

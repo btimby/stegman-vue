@@ -84,7 +84,7 @@
 import SvgIcon from '@jamescoyle/vue-icon';
 import { mdiContentCopy, mdiTooltipQuestionOutline } from '@mdi/js';
 import { pack, hide } from 'stegtext';
-import Tooltip from './Tooltip.vue';
+import Tooltip from '@/components/Tooltip.vue';
 
 export default {
     name: 'Compose',
@@ -180,7 +180,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 #container {
     min-width: 250px;
 }
