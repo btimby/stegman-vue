@@ -1,7 +1,7 @@
-import Compose from './components/Compose.vue';
+import Write from './components/Write.vue';
 import Read from './components/Read.vue';
 
 export {
-    Compose,
+    Write,
     Read,
 };

@@ -1,22 +1,26 @@
 <template>
   <div>
-    <textarea
-      ref="text"
-    ></textarea>
-    <Compose
-      :el="$refs.text"
+    <Write
+      v-model="message"
+      :width="800"
     />
   </div>
 </template>
 
 <script>
-import { Compose } from 'stegman-vue';
+import { Write } from 'stegman-vue';
 
 export default {
   name: 'Demo',
 
   components: {
-    Compose,
+    Write,
+  },
+
+  data() {
+    return {
+      message: null,
+    };
   },
 };
 </script>
