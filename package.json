@@ -20,7 +20,7 @@
     "build": "vite build",
     "build:watch": "vite build -w",
     "preview": "vite preview",
-    "version": "cd demo && npm version $npm_package_version && git commit -am $npm_package_version"
+    "version": "cd demo && npm version $npm_package_version"
   },
   "dependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
