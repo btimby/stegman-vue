@@ -1,7 +1,7 @@
 {
   "name": "stegman-vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
@@ -19,7 +19,8 @@
     "dev": "vite",
     "build": "vite build",
     "build:watch": "vite build -w",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "version": "cd demo && npm version $npm_package_version && git commit -m $npm_package_version"
   },
   "dependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
