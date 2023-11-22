@@ -13,7 +13,7 @@
       "import": "./dist/stegman-vue.js",
       "require": "./dist/stegman-vue.umd.cjs"
     },
-    "./index.css": "./dist/index.css"
+    "./style.css": "./dist/style.css"
   },
   "scripts": {
     "dev": "vite",

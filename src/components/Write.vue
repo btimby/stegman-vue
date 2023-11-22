@@ -1,7 +1,7 @@
 <template>
     <div
         id="container"
-        :style="{ width: `${width}px` }"
+        :style="{ width }"
     >
         <div class="row">
             <label
@@ -101,8 +101,8 @@ export default {
         },
 
         width: {
-            type: Number,
-            default: 500,
+            type: String,
+            default: '500px',
         },
     },
 
@@ -180,7 +180,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #container {
     min-width: 250px;
 }
