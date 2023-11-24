@@ -23,7 +23,7 @@
     "test": "vitest run",
     "test:watch": "vitest --reporter=dot --silent",
     "test:coverage": "vitest run --coverage",
-    "version": "cd demo && npm version --no-git-tag-version $npm_package_version $$ commit -m $npm_package_version package.json package-lock.json"
+    "version": "cd demo && npm version --no-git-tag-version $npm_package_version && commit -m $npm_package_version package.json package-lock.json"
   },
   "dependencies": {
     "@jamescoyle/vue-icon": "^0.1.2",
